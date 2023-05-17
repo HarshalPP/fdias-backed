@@ -104,5 +104,4 @@ function handleValidationError(error, req, res, _) {
     return res.status(500).jsonp(responseBuilder.build(false, null, errorUtil.parseError(commonLocale.serverError)))
   }
 }
-console.log("jani")
 export default app
